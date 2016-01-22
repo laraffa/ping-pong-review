@@ -12,11 +12,11 @@
 .sidebar {
   float: left;
   width: 200px;
-  height: 750px;
+  height: 400px;
   background: #e5ffff;
   margin: 3px;
   padding: 20px;
-  color: #80ffff;
+  color: #00c7cc;
 }
 
 .sidebar h3 {
