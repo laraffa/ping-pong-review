@@ -2,6 +2,7 @@
   background-color: #007f80;
   text-align: center;
   color: #b3feff;
+  font-family: georgia;
 }
 
 .document {
@@ -25,5 +26,5 @@
 }
 
 .sidebar p {
-  color: #cc0066;
+  color:  #ff66b3;
 }
