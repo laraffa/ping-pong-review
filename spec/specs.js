@@ -8,6 +8,7 @@ it("replaces numbers divisible by 5 with with 'pong'", function(){
 it("replaces numbers divisible by 15 with with 'pingpong'", function(){
   expect(pingPong(15)).to.eql([1,2,'ping',4,'pong','ping',7,8,'ping','pong',11,'ping',13,14,'pingpong']);
   });
-
-
+it("will not accept numbers less than one", function(){
+  expect(pingPong(-3)).to.eql(["Enter a number that is more than 0."]);
+});
 });
