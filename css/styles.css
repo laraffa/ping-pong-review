@@ -1,0 +1,28 @@
+.jumbotron {
+  background-color: #80ffff;
+  text-align: center;
+  color: #004b4d;
+}
+
+.main-content {
+  margin-top: 10px;
+  padding: 25px;
+  margin-left: 300px;
+}
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 750px;
+  background: #e5ffff;
+  margin: 3px;
+  padding: 20px;
+  color: #80ffff;
+}
+
+.sidebar h3 {
+  color: black;
+}
+
+.sidebar p {
+  color: #00b0b3;
+}
