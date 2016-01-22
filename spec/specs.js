@@ -1,6 +1,9 @@
-// Example spec. Uncomment if you want to see it run in spec-runner.html! Then uncomment the function in scripts.js
-// describe('helloWorld', function(){
-//   it("is going to be false", function(){
-//     expect(helloWorld()).to.equal(false);
-//   });
-// });
+describe("pingPong", function(){
+it("replaces numbers divisible by 3 with 'ping'", function() {
+  expect(pingPong(3)).to.equal('ping');
+});
+
+it("replaces numbers divisible by 5 with with 'pong'", function(){
+  expect(pingPong(5)).to.equal('pong');
+});
+});

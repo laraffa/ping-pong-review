@@ -1,4 +1,5 @@
-// Uncomment this to see the example spec test pass. Delete if you don't need it!
-// var helloWorld = function(){
-//   return false;
-// };
+var pingPong = function(inputNumber) {
+  if (inputNumber % 3 === 0){
+    return 'ping';
+  }
+};
