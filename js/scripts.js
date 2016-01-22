@@ -2,11 +2,10 @@ var pingPong = function(inputNumber) {
 var numberSet = [];
 
 if (inputNumber < 0) {
-  alert("Whoops! You must enter a number that is greater than 0.");
+  numberSet.push("Whoops! You must enter a number that is greater than 0.");
 }
-
 if (isNaN(inputNumber)) {
-  alert("Whoops! You must enter a number!");
+  numberSet.push("Whoops! You must enter a number!");
  }
 
 for (var i = 1; i <= inputNumber; i++) {
