@@ -7,6 +7,9 @@ if (inputNumber < 0) {
 if (isNaN(inputNumber)) {
   numberSet.push("Whoops! You must enter a number!");
  }
+// else if (inputNumber = "") {
+//   numberSet.push("Please input a number.");
+// }
 
 for (var i = 1; i <= inputNumber; i++) {
   if (i % 15 === 0) {

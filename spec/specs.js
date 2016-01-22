@@ -15,7 +15,3 @@ it("will not accept anything that is not a number", function(){
   expect(pingPong("lindsey")).to.eql(["Whoops! You must enter a number!"]);
   });
 });
-// // it("will not accept an empty string", function(){
-// //   expect(pingPong("")).to.eql(["Please input a number."])
-// //   });
-// });
