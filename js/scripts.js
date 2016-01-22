@@ -23,12 +23,19 @@ for (var i = 1; i <= inputNumber; i++) {
 return numberSet;
 };
 
-//   if (inputNumber % 3 === 0){
-//     return [1,2,'ping'];
-//   } else if (inputNumber % 5 === 0) {
-//     return [1,2,3,4,'pong'];
-//   } else if (inputNumber % 15 === 0) {
-//     return [1,2,3,4,5,6,7,8,9,10,11,12,13,14,'pingpong'];
-//   }
-//
-// };
+$(document).ready(function() {
+  $("button#pingPongBtn").click(function() {
+    $( "#pingPongOutput" ).empty();
+
+    var numberInput = $("input#numberInput").val();
+    var pingPongNumberos = pingPong(numberInput);
+
+    $("#pingPongOutput").append("<ul>");
+    pingPongNumberos.forEach(function(number){
+      $("#pingPongOutput").append("<li>" + number +"</li>");
+    });
+    $("#pingPongOutput").append("</ul>");
+
+    event.preventDefault();
+  });
+});
